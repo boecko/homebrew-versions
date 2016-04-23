@@ -6,8 +6,8 @@ class Ffmpeg28 < Formula
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   conflicts_with "ffmpeg",
-                                  :because => "both install the same binaries"
-  
+                 :because => "both install the same binaries"
+
   option "without-x264", "Disable H.264 encoder"
   option "without-lame", "Disable MP3 encoder"
   option "without-libvo-aacenc", "Disable VisualOn AAC encoder"
